@@ -360,7 +360,7 @@ padding-right: 5px;
 
 .foot1 {
   border: 2px solid white;
-  border-radius: 10px ;
+  border-radius: 20px ;
   margin: 10px;
 }
 
@@ -380,5 +380,46 @@ padding-right: 5px;
   color: rgba(133, 120, 120, 1); 
   line-height: 23px;
   letter-spacing: 3%;
+}
+
+.footLogo {
+  width: 100px;
+  height: 100px;
+  margin-top: -53px;
+}
+
+.footLogoTxt {
+  font-family: 'Oswald';
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.footLogoTxt1 {
+  color: rgba(7, 150, 239, 1);
+}
+.footLogoTxt2 {
+  color: rgba(255, 255, 255, 1);
+}
+.footLogoTxt3 {
+  color: rgba(133, 120, 120, 1);
+}
+
+.footCont {
+  background-color: rgba(22, 22, 22, 1);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footCont1{
+  font-family: 'Lato';
+  color: rgba(133, 120, 120, 1);
+  font-size: 14px;
+  font-weight: 600;
+
 }
 
