@@ -1,0 +1,384 @@
+.topNav {
+  background-color: #121618;
+  padding-top: 80px;
+}
+
+.navList {
+  font-family: 'Oswald';
+}
+
+.logoCol {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: -48px;
+}
+
+.logo {
+  width: 300px;
+  height: 100px;
+}
+
+.logoImg {
+width: 100px;
+height: 100px;
+padding-right: 5px;
+}
+.logoTxt {
+  font-family: 'Oswald';
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  padding-top: 18px;
+}
+.logoTxt1 {
+  color: rgba(7, 150, 239, 1);
+}
+.logoTxt2 {
+  color: rgba(255, 255, 255, 1);
+}
+.logoTxt3 {
+  color: rgba(133, 120, 120, 1);
+}
+
+.smallNav {
+  background-color: #121618;
+  padding-top: 30px;
+}
+
+.smallLogo {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: -48px;
+}
+.smallLogImg {
+  width: 100px;
+  height: 100px;
+}
+
+.toggleButton {
+  background-color: #121618;
+  width: 38px;
+  height: 45px;
+  margin-right: 10px;
+  border: none;
+  padding-bottom: 40px;
+}
+
+.buttonLine {
+  background-color: rgb(115, 116, 117);
+  width: 25px;
+  height: 3px;
+  margin-top: 3px;
+  margin-bottom:5px;
+  border-radius: 1px;
+}
+
+.smallNavList {
+  background-color: #121618;
+  display: flex;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.headSect {
+  background-image: url('C:\Users\AABZ\Desktop\deepnetsoft\deepnetsoft-fe\public\images\headImg.jpeg');
+  background-size: cover;
+  background-position: top left;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.headLine {
+  font-family: 'Oswald';
+  font-size: 75px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.headDesc {
+  font-family: 'Kelly Slab';
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 500px;
+  color: rgba(187, 187, 187, 1);
+}
+
+/* drinks component */
+.selArea {
+  background-image: url('C:\Users\AABZ\Desktop\deepnetsoft\deepnetsoft-fe\public\images\selArea.png');
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.selBut1 {
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: none;
+  width: 200px;
+  height: 60px;
+  font-family: 'Oswald';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.selBut2 {
+  background-color: blue;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: none;
+  width: 200px;
+  height: 60px;
+  font-family: 'Oswald';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contRow {
+  background-image: url('C:\Users\AABZ\Desktop\deepnetsoft\deepnetsoft-fe\public\images\contBg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10%;
+}
+
+.contCol {
+  border: 2px solid white;
+}
+
+.drn1 {
+  height: 200px;
+  width: 200px;
+  margin-left: -80px;
+  margin-top: -50px;
+}
+
+.drn2 {
+  height: 200px;
+  width: 200px;
+  margin-right: -80px;
+  margin-top: -50px;
+}
+
+.contLine {
+  background-color: rgba(133, 120, 120, 1);
+  height: 3px;
+  width: 200px;
+}
+
+.contHead {
+  font-family: 'Oswald';
+  font-size: 50px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.drn1a {
+  height: 50px;
+  width: 50px;
+}
+
+.drn2a {
+  height: 50px;
+  width: 50px;
+}
+
+.contLinea {
+  background-color: rgba(133, 120, 120, 1);
+  height: 3px;
+  width: 40px;
+}
+
+.contHeada {
+  font-family: 'Oswald';
+  font-size: 25px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.contName {
+  padding-left: 100px;
+}
+
+.contNameH {
+  font-family: 'Oswald';
+  font-size: 26px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 10%;
+}
+.contNameD {
+  font-family: 'Kelly Slab';
+  font-size: 18px;
+  font-weight: 400;
+  color:rgba(255, 255, 255, 0.75);
+  margin-left: 10%;
+}
+
+.contNamea {
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contNameHa {
+  font-family: 'Oswald';
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+.contNameDa {
+  font-family: 'Kelly Slab';
+  font-size: 14px;
+  font-weight: 400;
+  color:rgba(255, 255, 255, 0.75);
+}
+
+.hookah {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.hooFlav {
+  font-family: 'Oswald';
+  font-size: 26px;
+  font-weight: 400;
+  color:rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.orderBut {
+  font-family: 'Oswald';
+  font-size: 16px;
+  font-weight: 600;
+  color:rgba(255, 255, 255, 1);
+  text-align: center;
+  border: none;
+  background-color: rgba(7, 150, 239, 1);
+  width: 160px;
+  height: 50px;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+.terms {
+  background-color: rgba(197, 160, 89, 1);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.term1 {
+  border-right: 2px dotted rgba(255, 255, 255, 1);
+  font-family: 'Kelly slab';
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.term2 {
+  font-family: 'Kelly slab';
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.termsa {
+  background-color: rgba(197, 160, 89, 1);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  text-align: center;
+}
+
+.term1a {
+  font-family: 'Kelly slab';
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.term2a {
+  font-family: 'Kelly slab';
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.termBorder {
+  border-bottom: 2px dotted rgba(255, 255, 255, 1);
+  margin-bottom: 20px;
+}
+
+/* Footer component */
+
+.footer {
+  background-color: rgba(0, 0, 0, 1);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.footerRow {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.foot1 {
+  border: 2px solid white;
+  border-radius: 10px ;
+  margin: 10px;
+}
+
+.footFont1 {
+  font-family: 'Oswald';
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(7, 150, 239, 1); 
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footFont2 {
+  font-family: 'Oswald';
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(133, 120, 120, 1); 
+  line-height: 23px;
+  letter-spacing: 3%;
+}
+
