@@ -81,7 +81,6 @@ padding-right: 5px;
   background-color: #121618;
   display: flex;
   text-align: center;
-  padding-top: 60px;
 }
 
 .headSect {
@@ -109,6 +108,7 @@ padding-right: 5px;
   font-weight: 600;
   text-align: center;
   color: rgba(255, 255, 255, 1);
+  text-shadow: 4px 2px 0px rgba(128, 0, 32, 1);
 }
 
 .headDesc {
@@ -164,8 +164,26 @@ padding-right: 5px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 10%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
+
+.frame1{
+  background-image: url('C:\Users\AABZ\Desktop\deepnetsoft\deepnetsoft-fe\public\images\frame1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.frame2{
+  background-image: url('C:\Users\AABZ\Desktop\deepnetsoft\deepnetsoft-fe\public\images\frame2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 .contCol {
   border: 2px solid white;
@@ -178,11 +196,25 @@ padding-right: 5px;
   margin-top: -50px;
 }
 
+.bru1{
+  height: 200px;
+  width: 200px;
+  margin-left: -80px;
+  margin-top: -50px;
+}
+
 .drn2 {
   height: 200px;
   width: 200px;
   margin-right: -80px;
   margin-top: -50px;
+}
+
+.bru2{
+  height: 200px;
+  width: 200px;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .contLine {
@@ -197,6 +229,7 @@ padding-right: 5px;
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
   text-align: center;
+  text-shadow: 4px 2px 0px rgba(128, 0, 32, 1);
 }
 
 .drn1a {
@@ -204,7 +237,17 @@ padding-right: 5px;
   width: 50px;
 }
 
+.bru1a {
+  height: 50px;
+  width: 50px;
+}
+
 .drn2a {
+  height: 50px;
+  width: 50px;
+}
+
+.bru2a {
   height: 50px;
   width: 50px;
 }
@@ -221,10 +264,14 @@ padding-right: 5px;
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
   text-align: center;
+  text-shadow: 4px 2px 0px rgba(128, 0, 32, 1);
 }
 
-.contName {
-  padding-left: 100px;
+.mapping {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  /* justify-content: space-around; */
 }
 
 .contNameH {
@@ -232,14 +279,12 @@ padding-right: 5px;
   font-size: 26px;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
-  margin-left: 10%;
 }
 .contNameD {
   font-family: 'Kelly Slab';
   font-size: 18px;
   font-weight: 400;
   color:rgba(255, 255, 255, 0.75);
-  margin-left: 10%;
 }
 
 .contNamea {

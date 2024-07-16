@@ -4,6 +4,7 @@ import Menu from './Menu';
 import Drinks from './Drinks';
 import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Brunch from './Brunch';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Drinks />} />
+          <Route path='/brunch' element={<Brunch />} />
         </Routes>
       </BrowserRouter>
       <Footer/>

@@ -27,7 +27,7 @@ function Menu() {
                         </Col>
                     </Row>
                 </Col>
-                <Col mc={6}>
+                <Col md={6}>
                     <Row>
                         <Col md={2}>
                             <p className='navList' style={{ color: 'white' }}>HOME</p>
@@ -45,42 +45,43 @@ function Menu() {
                 </Col>
             </Row>
             <Row className='smallNav d-flex d-lg-none'>
-                <Col xs={4}></Col>
-                <Col xs={4} className='smallLogo'>
-                    <img src={`${process.env.PUBLIC_URL}/images/logo.png`} className='smallLogImg' alt="Logo" />
-                </Col>
-                <Col xs={4} className='d-flex justify-content-end'>
+                <Col xs={12} className='d-flex justify-content-end'>
                     <button onClick={toggleVisibility} className='toggleButton'>
                         <div className='buttonLine'></div>
                         <div className='buttonLine'></div>
                         <div className='buttonLine'></div>
                     </button>
                 </Col>
+                <Col xs={12}>
+                    {isVisible &&
+                        <Row className='smallNavList d-flex d-lg-none'>
+                            <Col md={6}>
+                                <p className='navList' style={{ color: 'white' }}>HOME</p>
+                            </Col>
+                            <Col md={6}>
+                                <p className='navList' style={{ color: 'blue' }}>MENU</p>
+                            </Col>
+                            <Col md={6}>
+                                <p className='navList' style={{ color: 'white' }}>MAKE A RESERVATION</p>
+                            </Col>
+                            <Col md={6}>
+                                <p className='navList' style={{ color: 'white' }}>CONTACT US</p>
+                            </Col>
+                        </Row>
+                    }
+                </Col>
+                <Col xs={12} className='smallLogo'>
+                    <img src={`${process.env.PUBLIC_URL}/images/logo.png`} className='smallLogImg' alt="Logo" />
+                </Col>
             </Row>
-            {isVisible &&
-                <Row className='smallNavList d-flex d-lg-none'>
-                    <Col md={6}>
-                        <p className='navList' style={{ color: 'white' }}>HOME</p>
-                    </Col>
-                    <Col md={6}>
-                        <p className='navList' style={{ color: 'blue' }}>MENU</p>
-                    </Col>
-                    <Col md={6}>
-                        <p className='navList' style={{ color: 'white' }}>MAKE A RESERVATION</p>
-                    </Col>
-                    <Col md={6}>
-                        <p className='navList' style={{ color: 'white' }}>CONTACT US</p>
-                    </Col>
-                </Row>
-            }
             <Row className='headSect'>
                 <Col md={12}>
-                    <Row style={{marginTop: '100px'}}>
+                    <Row style={{ marginTop: '100px' }}>
                         <Col md={12} className='d-flex justify-content-center'>
                             <p className='headLine'>MENU</p>
                         </Col>
                         <Col md={12} className='d-flex justify-content-center'>
-                            <p  className='headDesc'>
+                            <p className='headDesc'>
                                 Please take a look at our menu featuring food, drinks, and brunch. If you'd like to place an order, use the "Order Online" button located below the menu.
                             </p>
                         </Col>
